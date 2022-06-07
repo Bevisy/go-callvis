@@ -75,16 +75,13 @@ Here you can find descriptions for various types of output.
 
 #### Requirements
 
-- [Go](https://golang.org/dl/) 1.13+
+- [Go](https://golang.org/dl/) 1.18+
 - [Graphviz](http://www.graphviz.org/download/) (optional, required only with `-graphviz` flag)
 
 ### Installation
 
 ```sh
-go get -u github.com/ofabry/go-callvis
-# or
-git clone https://github.com/ofabry/go-callvis.git
-cd go-callvis && make install
+go install github.com/ofabry/go-callvis@latest
 ```
 
 ### Usage
